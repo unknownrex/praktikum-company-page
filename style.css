@@ -1,0 +1,296 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background: #0d0720;
+  color: #fff;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header-container {
+  padding: 12px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.brand {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  margin-left: 14px;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #6214e9;
+  text-shadow: 0px 0px 10px#7a2bff;
+}
+
+.hero {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 36px 0;
+}
+
+.hero-container {
+  max-width: 760px;
+}
+
+.title {
+  font-size: 60px;
+  margin: 0 0 8px;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #7a2bff;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.hero .text {
+  color: rgba(255, 255, 255, 0.75);
+  margin: 14px 0 20px;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #7a2bff;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #6214e9;
+  box-shadow: 0px 0px 10px #7a2bff;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+#service {
+  background: rgba(144, 144, 144, 0.034);
+}
+
+.section .title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+  margin-top: 12px;
+}
+
+.card {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 10px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.image {
+  width: 48px;
+  height: 48px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.card .title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card .text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.price {
+  margin-top: auto;
+  color: #7a2bff;
+  font-weight: 800;
+  text-align: center;
+}
+
+.tabel-harga {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.tabel-harga table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.tabel-harga th,
+.tabel-harga td {
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tabel-harga thead th {
+  background: #1a1035;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.tabel-harga .harga {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  color: #7a2bff;
+}
+
+.tabel-harga tbody td {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.tabel-harga tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.form {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form label {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.form input,
+.form textarea {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.02);
+  color: #fff;
+  font-size: 14px;
+}
+
+.form textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.logo-copyright {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box {
+  padding: 18px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.logo-small {
+  width: 30px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+
+.social img {
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+}
+
+@media (max-width: 900px) {
+  .cards {
+    flex-direction: column;
+  }
+  .hero .title {
+    font-size: 32px;
+  }
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero .title {
+    font-size: 24px;
+  }
+  .hero .text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .tabel-harga table {
+    font-size: 13px;
+  }
+}
